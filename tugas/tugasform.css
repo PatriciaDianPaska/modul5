@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #e9cd00;
+}
+
+h1{
+    color: #fffce6;
+    margin-top: 64px;
+    font-size: 28px;
+}
+
+a{
+    text-decoration: none;
+}
+
+div.konten{
+    background: #ffffff;
+    width: 380px;
+    margin: 20px auto 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tengah{
+    text-align: center;
+}
+
+.jarakatas30{
+    margin: 30px 0;
+}
+
+div.kiri{
+    float: left;
+}
+
+div.kanan{
+    float: right;
+}
+
+span{
+    font-size: 13px;
+}
+
+/**
+*   Desain Bagian Atas
+*
+ */
+
+
+div.atas{
+    height: 290px;
+    padding: 30px 30px 0;
+}
+
+div.grup{
+    margin: 10px 0;
+}
+
+a.a{
+    font-size: 13px;
+    color: #808080;
+}
+
+a.a.garisbawah{
+    text-decoration: underline;
+}
+
+a.a.tombol{
+    font-size: 14px;
+    padding: 0 7px;
+    border-radius: 3px;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 28px;
+    width: 49.3%;
+}
+
+a.a.facebook{
+    background: #405598;
+}
+
+a.a.facebook:hover{
+    background: #35467e;
+}
+
+a.a.twitter{
+    background: #01afee;
+}
+
+a.a.twitter:hover{
+    background: #0195cb ;
+}
+
+a.a i{
+    margin-right: 10px;
+}
+
+form{
+    margin: 20px 0;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    color: #454545;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus{
+    border: 1px solid #e9cd00;
+}
+
+button.tombol{
+    color: #ffffff;
+    width: 88px;
+    height: 28px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button.tombol.kirim{
+    background: #e9cd00;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+button.tombol.kirim:hover{
+    background: #ccb400;
+}
+
+button.tombol.hapus{
+    background: #01afee;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button.tombol.hapus:hover{
+    background: #0195cb;
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+    float: left;
+    margin:2px 4px 0 0;
+}
+
+/**
+*   Desain Bagian Bawah
+*
+ */
+
+div.bawah{
+    height: 60px;
+    background: #01afee;
+}
+
+
+span.info{
+    color: #e6f8ff;
+    line-height: 60px;
+}
